@@ -1,0 +1,6 @@
+useDynLib(rkdb, .registration=TRUE)
+
+export(open_connection)
+export(execute)
+export(close_connection)
+export(test.rkdb)
